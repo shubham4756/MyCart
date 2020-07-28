@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="#000000"
+        android:text="When we sell our own products, we get excited about individual product features and specifications. We live and breathe our company, our website, and our products.
+
+The problem is our potential buyers are not as interested in mundane features and specs. They want to know what’s in it for them—how it will address their biggest pain points. That’s why you need to highlight the benefits of each feature." />
+
+</FrameLayout>

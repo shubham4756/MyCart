@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">My Cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">forgot password ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="or">or</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account?sign up!</string>
+    <string name="permanent_address">Permanent Address</string>
+    <string name="first_name">First Name</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign in</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="last_name">Last Name</string>
+    <string name="don_t_worry_we_just_need_your_registered_email_address_and_its_done">Don\'t worry we just need your registered email address and its done!</string>
+    <string name="provide_your_registered_email_here">Provide your registered email here</string>
+    <string name="check_yout_inbox_after_clicking_the_button_above">Check yout inbox after clicking the button above</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="go_back"><![CDATA[<< Go Back]]></string>
+    <string name="todo">TODO</string>
+    <string name="recovery_email_sent_successfully_check_your_inbox">Recovery email sent successfully ! Check your Inbox</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+</resources>

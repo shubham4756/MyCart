@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace std;
+int Modulo(string b){
+    int sz_b=b.size();
+    if(sz_b==1)
+        return (b[0]-'0')%4;
+    int last=b[sz_b-1]-'0';
+    int secondlast=b[sz_b-2]-'0';
+    return (secondlast*10+last)%4;
+}
+int lastdigit(string a,string b){
+    int sz_a=a.size(),sz_b=b.size();
+    if(sz_a==1 && sz_b==1 && a[0]=='0' && b[0]=='0')
+        return 1;
+    if(sz_b==1 && b[0]=='0')
+        return 1;
+    if(sz_a==1 && a[0]=='0')
+        return 0;
+    int ep=Modulo(b);
+    if(ep==0)
+        ep=4;
+    int ans=pow(a[sz_a-1]-'0',ep);
+    return ans%10;
+}
+int main(){
+    int t;
+    cin>>t;
+    while(t--) {
+        string a, b;
+        cin >> a >> b;
+        cout << lastdigit(a, b) << endl;
+    }
+    return 0;
+}

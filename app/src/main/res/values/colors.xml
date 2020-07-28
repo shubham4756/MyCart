@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009BCE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="btnRed">#F9A825</color>
+    <color name="successGreen">#00c400</color>
+    <color name="successred">#B71C1C</color>
+    <color name="coupenPurple">#3606b6</color>
+    <color name="coupenRed">#FF3030</color>
+</resources>

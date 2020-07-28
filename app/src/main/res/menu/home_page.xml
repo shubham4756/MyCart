@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home_search_icon"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/search_logo"/>
+
+    <item android:id="@+id/home_notification_logo"
+        android:title="Download"
+        app:showAsAction="always"
+        android:icon="@drawable/notifications_logo"
+        />
+    <item android:id="@+id/home_my_cart"
+        android:title="My Cart"
+        app:showAsAction="always"
+        android:icon="@drawable/my_cart_logo"
+        />
+</menu>
